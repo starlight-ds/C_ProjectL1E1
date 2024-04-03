@@ -1,0 +1,23 @@
+13:57:53 **** Rebuild of configuration Debug for project Lab_1_exercise_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Lab_1_ex1.o "..\\Lab_1_ex1.c" 
+..\Lab_1_ex1.c: In function 'main':
+..\Lab_1_ex1.c:18:14: warning: unused variable 'circ_name' [-Wunused-variable]
+   18 |         char circ_name;
+      |              ^~~~~~~~~
+..\Lab_1_ex1.c:17:13: warning: unused variable 'num_circ' [-Wunused-variable]
+   17 |         int num_circ;
+      |             ^~~~~~~~
+..\Lab_1_ex1.c:16:16: warning: unused variable 'circumf' [-Wunused-variable]
+   16 |         double circumf;
+      |                ^~~~~~~
+..\Lab_1_ex1.c:15:16: warning: unused variable 'area' [-Wunused-variable]
+   15 |         double area;
+      |                ^~~~
+..\Lab_1_ex1.c:14:16: warning: unused variable 'radius' [-Wunused-variable]
+   14 |         double radius;
+      |                ^~~~~~
+gcc -o Lab_1_exercise_1.exe Lab_1_ex1.o 
+
+13:57:53 Build Finished. 0 errors, 5 warnings. (took 300ms)
+

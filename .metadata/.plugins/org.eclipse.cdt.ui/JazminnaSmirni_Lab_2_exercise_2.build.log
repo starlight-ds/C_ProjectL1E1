@@ -1,0 +1,7 @@
+12:51:39 **** Rebuild of configuration Debug for project JazminnaSmirni_Lab_2_exercise_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o JazminnaSmirni_Lab_2_ex2.o "..\\JazminnaSmirni_Lab_2_ex2.c" 
+gcc -o JazminnaSmirni_Lab_2_exercise_2.exe JazminnaSmirni_Lab_2_ex2.o 
+
+12:51:40 Build Finished. 0 errors, 0 warnings. (took 503ms)
+

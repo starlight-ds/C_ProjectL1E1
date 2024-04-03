@@ -1,0 +1,37 @@
+/*
+ * Jazminna_Smirni_ex2.c
+ *
+ *  Created on: Mar 13, 2024
+ *      Author: jsmirni
+ */
+
+/*
+ * JazminnaSmirni_Lab5Exercise2.c
+ *
+ *  Created on: Feb 29, 2024
+ *      Author: jsmirni
+ */
+
+
+#include <stdio.h>
+double calculateAandV(double a, double *surfaceArea, double *volume);
+
+int
+main(void)
+{
+	setvbuf(stdout, NULL,_IONBF, 0);
+	double a, surfaceArea, volume;
+	printf("Enter the edge length: ");
+	scanf("%lf", &a);
+	calculateAandV(a, &surfaceArea, &volume);
+	printf("Surface Area = %f", surfaceArea);
+	printf("\nVolume = %f", volume);
+
+	return 0;
+}
+
+double calculateAandV(a, &surfaceArea, &volume){
+	*surfaceArea = 6 * (a * a);
+	*volume = a * a;
+}
+
